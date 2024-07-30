@@ -1,9 +1,6 @@
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
-function Home() {
-  return <h1>Hello, React Router</h1>;
-}
+import Home from "./components/Home";
 
 function About() {
   return <h1>This is ALL ABOUT MOI.</h1>;
