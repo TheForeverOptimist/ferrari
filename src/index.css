@@ -4,16 +4,30 @@ body{
 
 .header{
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   height: 100px;
   width: 100%;
+  box-sizing: border-box;
   background-color: #FFF7ED;
+  padding-right: 25px;
+  padding-left: 26px;
 }
 
 .title{
-  display: flex;
+  margin-right: 235px;
   font-size: larger;
   font-weight: bold;
   font-family:Georgia, 'Times New Roman', Times, serif;
-  color: black;
+}
+
+.subLinks{
+  display: flex;
+  gap: 2rem;
+  font-size:large;
+}
+
+.title a, .subLinks a {
   text-decoration: none;
+  color: black;
 }
